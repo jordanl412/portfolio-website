@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Jordan Lazan - Portfolio</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="page-header">
+        <!--JL brown/tan/gray logo-->
+        <img src="img/jordan-lazan-bw-logo.png" class="page-header__item" height="160px" width="280px" alt="logo">
+        <nav class="page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">My Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item  navigation-list__item--active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<div class="contact-info">
+    Jordan Lazan<br>
+    111 Eighth Avenue<br>
+    New York, New York <br>
+    10011<br>
+    <br>
+    Tel <a href="tel:+17726435635">+1 7726435635</a><br>
+    Skype <a href="skype:hello.jlazan">hello.jlazan</a><br>
+    Email <a href="mailto:jordanlazan@gmail.com">jordanlazan@gmail.com</a>
+</div>
+
+
+<div class="get-in-touch">
+    <!--Jordan Headshot-->
+    <img src="img/jordan-smiling-headshot.jpeg"  class="profile__portrait" alt="Jordan Lazan Headshot">
+    <h1>Get in touch!</h1>
+    <p>I am easiest to reach by email.</p>
+    <a href="mailto:jordanlazan@gmail.com">Email me</a>
+</div>
+
+
+<div class="contact-form">
+    <h2>Contact Form</h2>
+    <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">*Email: </label></br>
+        <input type="email" id="contact-email" required></br>
+
+        <label class="standard-label" for="telephone-number">Telephone (###-###-####): </label></br>
+        <input type="tel" id="telephone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}"></br>
+
+        <label class="standard-label" for="message">*Message (max 240 characters): </label></br>
+        <textarea required id="message" maxlength="240"></textarea></br>
+
+        <input type="submit" value="Send message">
+    </form></br>
+    <p>*Required</p>
+</div>
+
+<footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+        <!--Github logo (add website link!)-->
+        <a href="#" target="_blank"><img src="img/github-icon.svg" class="social-media-icon" alt="Github icon"></a>
+        <!--Twitter logo (add website link!)-->
+        <a href="#" target="_blank"><img src="img/twitter-icon.svg" class="social-media-icon" alt="Twitter icon"></a>
+        <!--LinkedIn logo (add website link!)-->
+        <a href="#" target="_blank"><img src="img/linkedin-icon.svg" class="social-media-icon" alt="LinkedIn icon"></a>
+    </div>
+</footer>
+
+
+<script src="js/tota11y.min.js"></script>
+</body>
+</html>
+
+
