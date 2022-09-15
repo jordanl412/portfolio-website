@@ -109,6 +109,7 @@ button:hover, button:focus, .button:hover, .button:focus {
             flex: 0 1 200px;
 }
 
+
 .page-header__item:last-child {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -258,7 +259,7 @@ table {
     .project-list {
         grid-gap: 10px;
     }
-    .project-list__item:last-child {
+    .project-list__item:last-child, .project-list__item:nth-child(5) {
         grid-column: auto/auto;
         grid-row: auto/auto;
     }
@@ -404,53 +405,6 @@ table {
 .white-small-cloud {
     -webkit-animation: 8s small-cloud-scale infinite alternate linear;
             animation: 8s small-cloud-scale infinite alternate linear;
-}
-
-.top-bottom-borders-out li:before {
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #fff;
-    content: "";
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.top-bottom-borders-out li:after {
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #fff;
-    content: "";
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.top-bottom-borders-out li:before {
-    top: 0px;
-    -webkit-transform: translateY(10px);
-        -ms-transform: translateY(10px);
-            transform: translateY(10px);
-}
-
-.top-bottom-borders-out li:after {
-    bottom: 0px;
-    -webkit-transform: translateY(-10px);
-        -ms-transform: translateY(-10px);
-            transform: translateY(-10px);
-}
-
-.top-bottom-borders-out li:hover:before, .top-bottom-borders-out li:hover:after {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-        -ms-transform: translateY(0px);
-            transform: translateY(0px);
 }
 
 .social-media-icon:hover {
