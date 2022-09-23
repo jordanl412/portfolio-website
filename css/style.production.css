@@ -143,7 +143,46 @@ button:hover, button:focus, .button:hover, .button:focus {
     border-radius: 50%;
 }
 
-.about-me, .about-me-2, .work-info, .contact-info, .nyc-skyline-credit {
+.contact-page__portrait {
+    float: center;
+    width: 250px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.contact-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+
+.contact-info {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-top: 100px;
+}
+
+.portrait-div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-top: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+}
+
+.contact-form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-top: 100px;
+}
+
+.about-me, .about-me-2, .work-info, .nyc-skyline-credit {
     text-align: center;
     list-style-position: inside;
 }
@@ -177,12 +216,7 @@ table {
 }
 
 
-.contact-form {
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
-    clear:both;
-}
+
 
 /*Fallback for project-list items*/
 .project-list__item {

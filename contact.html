@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="img/favicon-32x32.png" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -30,7 +30,11 @@
             </ul>
         </nav>
     </header>
+
+
+<main class="contact-page">
 <div class="contact-info">
+    <h2>Contact Info</h2>
     Jordan Lazan<br>
     111 Eighth Avenue<br>
     New York, New York <br>
@@ -40,14 +44,14 @@
     Skype <a href="skype:hello.jlazan">hello.jlazan</a><br>
     Email <a href="mailto:jordanlazan@gmail.com">jordanlazan@gmail.com</a>
 </div>
-
-
-<div class="get-in-touch">
-    <!--Jordan Headshot-->
-    <img src="img/jordan-smiling-headshot.jpeg"  class="profile__portrait" alt="Jordan Lazan Headshot">
+<div class="portrait-div">
     <h1>Get in touch!</h1>
     <p>I am easiest to reach by email.</p>
     <a href="mailto:jordanlazan@gmail.com">Email me</a>
+    <br>
+    <br>
+    <!--Jordan Headshot-->
+    <img src="img/jordan-smiling-headshot.jpeg"  class="contact-page__portrait" alt="Jordan Lazan Headshot">
 </div>
 
 
@@ -63,10 +67,11 @@
         <label class="standard-label" for="message">*Message (max 240 characters): </label></br>
         <textarea required id="message" maxlength="240"></textarea></br>
 
-        <input type="submit" value="Send message">
+        <input type="submit" value="Send message" class="button">
     </form></br>
     <p>*Required</p>
 </div>
+</main>
 
 <footer class="page-footer">
     <p>Find me on</p>
