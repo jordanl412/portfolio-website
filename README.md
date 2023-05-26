@@ -7,4 +7,4 @@ This is a simple portfolio website, created to showcase my work and allow people
 - Github Pages
 
 ## Link
-(https://jordanl412.github.io/portfolio-website/)
+https://jordanl412.github.io/portfolio-website/
