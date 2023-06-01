@@ -146,11 +146,18 @@ button:hover, button:focus, .button:hover, .button:focus {
 .contact-info {
     flex: 1;
     padding-top: 100px;
+    padding-right: 260px;
+}
+
+.get-in-touch {
+    flex: 1;
+    justify-content: center;
 }
 
 .portrait-div {
     flex: 1;
-    padding-top: 40px;
+    padding-top: 92px;
+    padding-left: 260px;
     justify-content: center;
     text-align: center;
 }
